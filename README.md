@@ -12,7 +12,7 @@ A simple calculator web application built with HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can see a live demo of the calculator [here](#).
+You can see a live demo of the calculator [here](https://tathsaraniliyanage.github.io/My-Calculator/).
 
 ## Screenshots
 
