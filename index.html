@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>My Calculator</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<section class="vw-100 vh-100 d-flex flex-column justify-content-center align-items-center gap-2">
+    <div class="d-flex flex-column gap-2 rounded-3 p-2" style="border: solid 1px #b4b4b4">
+        <input class="bg-body-secondary button-num" id="text-field"
+               style="width: 350px;height: 80px; text-align: right;border: none;padding: 5px">
+        <section class="d-flex flex-row gap-1 justify-content-center align-items-center rounded-3 bg-body-secondary"
+                 style="width: 350px;height: 430px;">
+            <div class="d-flex flex-column gap-1">
+                <button class="button-num" id="btn-Clear"><span>C</span></button>
+                <button class="button-num" id="btn-seven"><span>7</span></button>
+                <button class="button-num" id="btn-four"><span>4</span></button>
+                <button class="button-num" id="btn-one"><span>1</span></button>
+                <button class="button-num" id="btn-prestige"><span>%</span></button>
+            </div>
+            <div class="d-flex flex-column gap-1">
+                <button class="button-num" id="btn-division"><span>/</span></button>
+                <button class="button-num" id="btn-eight"><span>8</span></button>
+                <button class="button-num" id="btn-five"><span>5</span></button>
+                <button class="button-num" id="btn-tow"><span>2</span></button>
+                <button class="button-num" id="btn-zero"><span>0</span>
+                </button>
+            </div>
+            <div class="d-flex flex-column gap-1">
+                <button class="button-num" id="btn-multiply"><span>*</span></button>
+                <button class="button-num" id="btn-nine"><span>9</span></button>
+                <button class="button-num" id="btn-six"><span>6</span></button>
+                <button class="button-num" id="btn-three"><span>3</span></button>
+                <button class="button-num" id="btn-double-dote"><span>.</span></button>
+            </div>
+            <div class="d-flex flex-column gap-1">
+                <button class="button-num" id="btn-delete"><span><</span></button>
+                <button class="button-num" id="btn-subscription"><span>-</span></button>
+                <button class="button-num" id="btn-addition"><span>+</span></button>
+                <button class="button-num" id="btn-equal" style="height: 160px; background-color: #ffb950 ;color: #d1e7dd"><span>=</span></button>
+            </div>
+        </section>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
