@@ -22,7 +22,7 @@ You can see a live demo of the calculator [here](#).
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/calculator.git`
+1. Clone the repository: `https://github.com/tathsaraniliyanage/My-Calculator.git`
 2. Open `index.html` in your web browser
 
 ## License
